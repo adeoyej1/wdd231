@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="John Adeoye's WDD 231 course home page, showcasing web development learning, projects, and certificate courses.">
+  <meta name="author" content="John Adeoye">
+  <meta name="theme-color" content="#123047">
+  <title>WDD 231 | Course Home | John Adeoye</title>
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/courses.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="John Adeoye home">
+      <img src="images/logo.svg" alt="" width="48" height="48">
+      <span>John Adeoye</span>
+    </a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-nav">
+      <span class="menu-icon" aria-hidden="true"></span>
+    </button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+      <a href="index.html" class="active" aria-current="page">Home</a>
+      <a href="chamber/index.html">Chamber</a>
+      <a href="project/index.html">Final</a>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <h1>Home</h1>
+    <div class="intro-grid">
+      <section class="panel about-panel">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <p>My name is John Adeoye. I am a focused and growth-driven individual with a passion for learning, business, technology, and spiritual development. I am developing my skills in web design and programming so I can create useful digital solutions and continue growing professionally.</p>
+          <p>I enjoy learning new technologies, solving problems, and applying what I learn to practical projects.</p>
+        </div>
+      </section>
+
+      <section class="panel photo-panel">
+        <h2>Student Photo</h2>
+        <div class="photo-placeholder" role="img" aria-label="Student photo placeholder">
+          <span>JA</span>
+          <p>Add your optimized portrait photo here</p>
+        </div>
+      </section>
+    </div>
+
+    <section class="panel certificate-panel">
+      <h2>Web and Computer Programming Certificate</h2>
+      <div class="course-filters" role="group" aria-label="Filter courses">
+        <button class="filter-button selected" type="button" data-filter="all" aria-pressed="true">All Courses</button>
+        <button class="filter-button" type="button" data-filter="WDD" aria-pressed="false">WDD Courses</button>
+        <button class="filter-button" type="button" data-filter="CSE" aria-pressed="false">CSE Courses</button>
+      </div>
+      <p class="credit-summary" aria-live="polite">Credits displayed: <strong id="credit-total">0</strong></p>
+      <div id="course-list" class="course-grid" aria-live="polite">
+        <p>Loading courses…</p>
+      </div>
+      <p class="completion-note"><span class="completion-key" aria-hidden="true"></span> Completed course <span class="pending-key" aria-hidden="true"></span> Not yet completed</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="social-links" aria-label="Social media links">
+      <a href="https://github.com/adeoyej1" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.56.1.76-.24.76-.54v-2.1c-3.1.67-3.76-1.32-3.76-1.32-.5-1.28-1.24-1.62-1.24-1.62-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 .1.75 2.02 3.4 1.52.1-.72.4-1.2.72-1.48-2.47-.28-5.07-1.24-5.07-5.5 0-1.22.44-2.21 1.15-2.99-.12-.28-.5-1.42.11-2.95 0 0 .94-.3 3.05 1.14a10.6 10.6 0 0 1 5.55 0c2.12-1.44 3.05-1.14 3.05-1.14.61 1.53.23 2.67.12 2.95.71.78 1.14 1.77 1.14 2.99 0 4.27-2.6 5.22-5.08 5.5.4.35.76 1.02.76 2.06v3.07c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/your-linkedin-profile/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96c0 .84.69 1.52 1.55 1.52h16.9c.86 0 1.55-.68 1.55-1.52V3.52c0-.84-.69-1.52-1.55-1.52ZM7.93 18.9H4.96V9.34h2.97v9.56ZM6.44 8.03a1.72 1.72 0 1 1 0-3.44 1.72 1.72 0 0 1 0 3.44Zm12.5 10.87h-2.97v-4.65c0-1.11-.02-2.54-1.55-2.54-1.55 0-1.79 1.21-1.79 2.46v4.73H9.66V9.34h2.85v1.31h.04c.4-.75 1.37-1.55 2.82-1.55 3.01 0 3.57 1.98 3.57 4.55v5.25Z"/></svg>
+      </a>
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-8.2h2.76l.41-3.2H13.5V7.56c0-.93.26-1.56 1.6-1.56h1.7V3.14c-.3-.04-1.34-.14-2.55-.14-2.52 0-4.25 1.54-4.25 4.37V9.6H7.15v3.2H10V21h3.5Z"/></svg>
+      </a>
+    </div>
+    <p class="copyright">© <span id="currentyear"></span> John Adeoye | Nigeria</p>
+    <p class="modified">Last Modified: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>
