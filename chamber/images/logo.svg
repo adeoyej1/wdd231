@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 64" role="img" aria-labelledby="title">
-<title id="title">Abuja Business Chamber logo</title>
-<rect x="2" y="2" width="60" height="60" rx="14" fill="#123047"/>
-<path d="M14 43 32 13l18 30H39l-7-12-7 12z" fill="#f2b544"/>
-<path d="M23 47h18" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
-<text x="73" y="28" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#123047">ABUJA</text>
-<text x="73" y="47" font-family="Arial,sans-serif" font-size="13" font-weight="600" fill="#31566b">BUSINESS CHAMBER</text>
-</svg>
