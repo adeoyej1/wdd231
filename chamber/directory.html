@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Metadata -->
+  <meta name="description" content="Explore the Abuja Business Chamber directory and connect with businesses and organisations across Abuja, Nigeria.">
+  <meta name="author" content="John Adeoye">
+  <meta name="theme-color" content="#123047">
+
+  <title>Business Directory | Abuja Business Chamber</title>
+
+  <!-- Open Graph Metadata -->
+  <meta property="og:title" content="Business Directory | Abuja Business Chamber">
+  <meta property="og:description" content="Discover and connect with member businesses in Abuja, Nigeria. Explore local services and business opportunities.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://adeoyej1.github.io/wdd231/chamber/images/logo.svg">
+  <meta property="og:image:alt" content="Abuja Business Chamber logo">
+  <meta property="og:url" content="https://adeoyej1.github.io/wdd231/chamber/directory.html">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <!-- Google Fonts: Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <!-- JavaScript Files -->
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/directory.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Abuja Business Chamber home">
+        <img src="images/logo.svg" alt="Abuja Business Chamber logo">
+      </a>
+
+      <button class="menu-button"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="primary-navigation">
+        ☰
+      </button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="primary-nav" id="primary-navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="directory.html" aria-current="page">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+
+    <section class="page-intro" aria-labelledby="page-title">
+      <p class="eyebrow">Connect • Collaborate • Grow</p>
+
+      <h1 id="page-title">Business Directory</h1>
+
+      <p>
+        Find local businesses and organisations serving Abuja and its
+        surrounding communities. Use the directory to discover services
+        and make new connections.
+      </p>
+    </section>
+
+    <!-- Directory Display Options -->
+    <section aria-label="Directory display options">
+
+      <div class="directory-tools">
+        <p class="member-count" id="member-count" aria-live="polite">
+          Loading chamber members…
+        </p>
+
+        <div class="view-controls" role="group" aria-label="Choose directory layout">
+          <button id="grid-view" type="button" aria-pressed="true">
+            Grid View
+          </button>
+
+          <button id="list-view" type="button" aria-pressed="false">
+            List View
+          </button>
+        </div>
+      </div>
+
+      <!-- Business Members -->
+      <div id="members"
+        class="member-grid"
+        aria-live="polite"
+        aria-busy="true">
+
+        <p class="status-message">Loading member directory…</p>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+
+      <div>
+        <p class="footer-contact">Abuja Business Chamber</p>
+        <p>Central Area, Abuja, FCT, Nigeria</p>
+        <p>Email: info@abujabusinesschamber.example</p>
+        <p>Phone: +234 800 000 0100</p>
+      </div>
+
+      <div class="footer-meta">
+        <p>
+          © <span id="current-year"></span> Abuja Business Chamber
+        </p>
+
+        <p>John Adeoye | WDD 231</p>
+
+        <p>
+          Last modified: <span id="last-modified"></span>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
