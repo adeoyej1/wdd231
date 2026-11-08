@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Arewa Digital Solutions",
+    "address": "Plot 18, Aminu Kano Crescent, Wuse II, Abuja",
+    "phone": "+234 800 000 0001",
+    "website": "https://arewa-digital.example",
+    "image": "arewa-digital.svg",
+    "membershipLevel": 3,
+    "category": "Technology",
+    "description": "Digital services, business websites and IT support for growing organisations."
+  },
+  {
+    "name": "Capital Harvest Foods",
+    "address": "12 Gimbiya Street, Area 11, Garki, Abuja",
+    "phone": "+234 800 000 0002",
+    "website": "https://capitalharvest.example",
+    "image": "capital-harvest.svg",
+    "membershipLevel": 2,
+    "category": "Food & Agriculture",
+    "description": "Food supply and agricultural produce distribution for homes and businesses."
+  },
+  {
+    "name": "Jabi Wellness Clinic",
+    "address": "Suite 4, Jabi District, Abuja",
+    "phone": "+234 800 000 0003",
+    "website": "https://jabiwellness.example",
+    "image": "jabi-wellness.svg",
+    "membershipLevel": 2,
+    "category": "Health",
+    "description": "Community-focused primary care and preventive wellness services."
+  },
+  {
+    "name": "Unity Heights Properties",
+    "address": "No. 6, 1st Avenue, Gwarinpa, Abuja",
+    "phone": "+234 800 000 0004",
+    "website": "https://unityheights.example",
+    "image": "unity-heights.svg",
+    "membershipLevel": 3,
+    "category": "Real Estate",
+    "description": "Property advisory, residential letting and facility management."
+  },
+  {
+    "name": "Wuse Creative Studio",
+    "address": "21 Adetokunbo Ademola Crescent, Wuse II, Abuja",
+    "phone": "+234 800 000 0005",
+    "website": "https://wusecreative.example",
+    "image": "wuse-creative.svg",
+    "membershipLevel": 1,
+    "category": "Creative Services",
+    "description": "Brand identity, photography and creative communications for local brands."
+  },
+  {
+    "name": "Garki Business Centre",
+    "address": "Market Road, Garki, Abuja",
+    "phone": "+234 800 000 0006",
+    "website": "https://garkibusiness.example",
+    "image": "garki-business.svg",
+    "membershipLevel": 1,
+    "category": "Business Services",
+    "description": "Printing, office supplies and administrative support for small businesses."
+  },
+  {
+    "name": "Trinity Learning Hub",
+    "address": "Beside 3rd Avenue, Gwarinpa, Abuja",
+    "phone": "+234 800 000 0007",
+    "website": "https://trinitylearning.example",
+    "image": "trinity-learning.svg",
+    "membershipLevel": 2,
+    "category": "Education",
+    "description": "Digital skills training, tutoring and professional development programmes."
+  }
+]
