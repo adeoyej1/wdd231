@@ -40,9 +40,7 @@ a:focus-visible, button:focus-visible {
   justify-content: space-between;
   gap: 1rem;
 }
-body {
-    font-family: "Roboto", sans-serif;
-}
+
 .brand img { width: 220px; height: auto; }
 .menu-button {
   border: 1px solid var(--line);
